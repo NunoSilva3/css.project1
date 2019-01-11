@@ -2,12 +2,12 @@
 #top {
     font-size: 100%;
     background: rgb(199, 231, 58);
-  padding: 1em;
+  padding: 0.5em;
   position: sticky;
   position: -webkit-sticky;
-  top:0%;
+  top:0;
   text-align: center;
-  
+  z-index: 1;
 
 }
 #topofimage { 
@@ -54,15 +54,14 @@
   iframe.google-maps { 
     height:100vh;
     width: 100%;
-    padding: 1em;
-  left: 10%;
-right:10%;
+    
 
    }
 
    #infoBanana.section { 
-    width: 100%;
 margin: 0 auto;
+max-width: 100%;
+position: relative
 
 }
 html {
@@ -74,13 +73,13 @@ html {
   margin: 0;
   padding: 1em;
   display: grid;
-  justify-content: space-between;
+  justify-content: space-evenly;
   position: relative;
 
-	border: 5px; solid #ccc;
+	border: 5px solid #ccc;
 	/*grid-template-columns: repeat(auto-fill, 25%)*/
 	grid-template-columns: 33% 33% 33%;
-  grid-gap: 5%;
+  grid-gap: 1%;
 
 
   padding: 1em 1em;
@@ -97,17 +96,21 @@ html {
   background-color: rgb(0,0,0);}
 
 }
-#banaTeam.section {
+#bananaTeam {
 
-  width: 100%;
 margin: 0 auto;
-column-width: 200px;
+column-width: 33%;
   column-count: 3;
+
+  
+  max-width: 100%;
+  position: relative
+   
 
 }
 
   
-  #bananaTeam.section ul.flex-container. { 
+  #bananaTeam ul.flex-container { 
 
     list-style: none;
     margin: 0;
@@ -116,7 +119,7 @@ column-width: 200px;
     justify-content: space-between;
     position: relative;
   
-    border: 5px; solid #ccc;
+    border: 5px solid #ccc;
     /*grid-template-columns: repeat(auto-fill, 25%)*/
     grid-template-columns: 33% 33% 33%;
     grid-gap: 5%;
@@ -127,7 +130,9 @@ column-width: 200px;
   column-count: 3;
 
    }
-    #bananaTeam.section ul.flex-container. li.flex-item.team img { 
-      max-width: 100%;
-  position: relative
-     }
+
+   #bananaTeam img {
+    max-width: 70%;
+}
+
+     
