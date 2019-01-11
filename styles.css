@@ -1,0 +1,133 @@
+
+#top {
+    font-size: 100%;
+    background: rgb(199, 231, 58);
+  padding: 1em;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0%;
+  text-align: center;
+  
+
+}
+#topofimage { 
+  height:100vh;
+ width: 100%;
+ background: url('https://www.kroger.com/product/images/large/front/0000000004011') no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ position: relative;
+}
+
+#topofimage h1 { 
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+
+ }
+ #topofimage h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ #topofimage a { 
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+  }
+
+  #map location {
+    position: relative;
+    width: 100%
+    text-align: center;
+
+  }
+  
+
+  iframe.google-maps { 
+    height:100vh;
+    width: 100%;
+    padding: 1em;
+  left: 10%;
+right:10%;
+
+   }
+
+   #infoBanana.section { 
+    width: 100%;
+margin: 0 auto;
+
+}
+html {
+  box-sizing: content-box;
+  position: relative;
+}
+   #infoBanana.section ul.flex-container { 
+    list-style: none;
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  justify-content: space-between;
+  position: relative;
+
+	border: 5px; solid #ccc;
+	/*grid-template-columns: repeat(auto-fill, 25%)*/
+	grid-template-columns: 33% 33% 33%;
+  grid-gap: 5%;
+
+
+  padding: 1em 1em;
+
+}
+#infoBanana.section ul.flex-container li.flex-item img { 
+  
+  max-width: 100%;
+  position: relative
+  
+}
+#infoBanana.section ul.flex-container li.flex-item li.flex-item { 
+  text-align: center;
+  background-color: rgb(0,0,0);}
+
+}
+#banaTeam.section {
+
+  width: 100%;
+margin: 0 auto;
+column-width: 200px;
+  column-count: 3;
+
+}
+
+  
+  #bananaTeam.section ul.flex-container. { 
+
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    justify-content: space-between;
+    position: relative;
+  
+    border: 5px; solid #ccc;
+    /*grid-template-columns: repeat(auto-fill, 25%)*/
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5%;
+  
+  
+    padding: 1em 1em;
+    column-width: 200px;
+  column-count: 3;
+
+   }
+    #bananaTeam.section ul.flex-container. li.flex-item.team img { 
+      max-width: 100%;
+  position: relative
+     }
